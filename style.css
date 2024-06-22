@@ -6,9 +6,6 @@
   font-family: 'Poppins', sans-serif;
   transition: all 0.3s ease-in-out;
 }
-::webkit-scrollbar{
- width: 0;
-}
 
 body {
   background-color: #fff;
@@ -151,6 +148,10 @@ margin-left: 10px;
   max-width: 90px;
   display: flex;
 }
+.count::-webkit-scrollbar {
+    width: 0;
+}
+
 .count span{
   margin-right: 5px;
 }
