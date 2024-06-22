@@ -6,6 +6,9 @@
   font-family: 'Poppins', sans-serif;
   transition: all 0.3s ease-in-out;
 }
+::webkit-scrollbar{
+ width: 0;
+}
 
 body {
   background-color: #fff;
