@@ -150,6 +150,7 @@ margin-left: 10px;
 }
 .count::-webkit-scrollbar {
     width: 0;
+    height: 0;
 }
 
 .count span{
